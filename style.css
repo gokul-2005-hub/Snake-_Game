@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: black;
+  background: #050816;
 }
 .wrapper {
   width: 65vmin;
@@ -40,10 +40,14 @@ body {
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 .play-board .food {
-  background: #FF003D;
+  background: #ff006e;
+  box-shadow:
+    0 0 8px #ff006e,
+    0 0 16px #ff006e;
 }
 .play-board .head {
   background: #60CBFF;
+  box-shadow: 0 0 8px #60CBFF;
 }
 .play-board {
   border: 10px solid #00ffff;
